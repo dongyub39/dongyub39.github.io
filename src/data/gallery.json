@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Nagoya Castle",
+    "description": "Visit to Nagoya Castle during research conference",
+    "image": "/images/gallery/nagoya1.jpg",
+    "year": 2025
+  },
+  {
+    "id": 2,
+    "title": "Robot Lab",
+    "description": "Working on robot manipulation experiments",
+    "image": "/images/gallery/lab1.jpg",
+    "year": 2025
+  },
+  {
+    "id": 3,
+    "title": "Conference Presentation",
+    "description": "Presenting research at ICRA 2025",
+    "image": "/images/gallery/conference1.jpg",
+    "year": 2025
+  },
+  {
+    "id": 4,
+    "title": "3D Printing Project",
+    "description": "Custom robot parts from 3D printer",
+    "image": "/images/gallery/3dprint1.jpg",
+    "year": 2024
+  },
+  {
+    "id": 5,
+    "title": "Nagoya Streets",
+    "description": "Exploring Nagoya city",
+    "image": "/images/gallery/nagoya2.jpg",
+    "year": 2025
+  },
+  {
+    "id": 6,
+    "title": "Hardware Setup",
+    "description": "Jetson Nano development setup",
+    "image": "/images/gallery/hardware1.jpg",
+    "year": 2024
+  }
+]
+

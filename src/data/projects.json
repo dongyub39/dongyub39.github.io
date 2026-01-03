@@ -1,0 +1,124 @@
+{
+  "major": [
+    {
+      "id": 3,
+      "title": "Language-Conditioned Multi-Robot Systems",
+      "description": "Research on multi-robot coordination systems that can understand and execute natural language instructions for collaborative tasks.",
+      "image": "/images/projects/multi-robot.jpg",
+      "technologies": ["ROS2", "NLP", "Multi-Agent Systems", "Python"],
+      "links": {
+        "github": "https://github.com/maido-39"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Solar-Powered Vehicle",
+      "description": "Development and production of solar-powered vehicle for Bridgestone World Solar Challenge 2025 in Australia, driving 3000km with only solar power. Served as solar energy team leader, responsible for design, manufacture, optimization, and installation of solar panels. Also served as technical advisor for the mechanical team.",
+      "image": "/images/projects/solar-vehicle.jpg",
+      "technologies": ["Solar Energy", "Vehicle Design", "Solar Panel Optimization", "Mechanical Engineering", "Energy Management", "World Solar Challenge"],
+      "links": {}
+    },
+    {
+      "id": 4,
+      "title": "Language-Guided, Instruction aware Navigation",
+      "description": "Language-Conditioned Routing: Developed a path generation algorithm that parses natural language instructions to adhere to both destination goals and complex user-specified constraints. Map-free Global Planning: Implemented a scalable planning system utilizing raw OpenStreetMap (OSM) data, eliminating the need for pre-built navigation databases. Dynamic Graph Adaptation: Integrated real-time perception modules to dynamically update navigation graphs, ensuring robust adaptability in changing environments.",
+      "image": "https://img.youtube.com/vi/ZpZ3jDcepFg/maxresdefault.jpg",
+      "technologies": ["ROS2", "Natural Language Processing", "OpenStreetMap", "Graph Planning", "Python"],
+      "links": {
+        "video": "https://youtu.be/ZpZ3jDcepFg"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Mobile Cable-Driven Parallel Robot (MCDPR)",
+      "description": "Research on improving dynamic performance of MCDPR through hybrid force compensation, online geometry estimation, and tension control stability enhancement.",
+      "image": "https://img.youtube.com/vi/m4UILoInKxo/maxresdefault.jpg",
+      "technologies": ["ROS", "Extended Kalman Filter", "PID Control", "Matlab"],
+      "links": {
+        "paper": "https://doi.org/10.1007/s00542-024-05673-4",
+        "video": "https://www.youtube.com/watch?v=m4UILoInKxo"
+      }
+    }
+  ],
+  "toy": [
+    {
+      "id": 1,
+      "title": "Autoscroll Braille Device",
+      "description": "Award-winning design project: Autoscroll Braille Device for the blind. Won Grand Prize from Gachon University President and Silver Award from Healthcare Consortium Director.",
+      "image": "/images/projects/Autoscroll Braille Device.png",
+      "technologies": ["3D Printing", "Arduino", "Mechanical Design"],
+      "links": {
+        "video": "https://youtube.com/maido-a"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Smart Logistics Sorting System",
+      "description": "Award-winning project: Smart logistics sorting system using optimal route design. Won Silver Award from ICT Hanium Mentoring Contest.",
+      "image": "/images/projects/Smart Logistics Sorting System.png",
+      "technologies": ["Genetic Algorithm", "ROS", "Computer Vision"],
+      "links": {
+        "video": "https://youtube.com/maido-a"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Pneumatic Water-Cooling 3D Printer Tool Changer",
+      "description": "Engineered a pneumatic-controlled water-cooling 3D-printer hot-swap tool-changer system with kinematically stabilized tool base.",
+      "image": "/images/projects/Pneumatic Water-Cooling 3D Printer Tool Changer.png",
+      "technologies": ["3D Printing", "Pneumatic Systems", "Mechanical Design"],
+      "links": {
+        "video": "https://youtube.com/maido-a"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Low Inertia Flexible-Shaft 3D Printer Extruder",
+      "description": "Designed low inertia flexible-shaft and worm gear driven 3D printer extruder system for improved printing performance.",
+      "image": "/images/projects/extruder-system.jpg",
+      "technologies": ["Mechanical Design", "3D Printing", "Worm Gear"],
+      "links": {
+        "video": "https://youtube.com/maido-a"
+      }
+    },
+    {
+      "id": 5,
+      "title": "3D Printing Failure Detection with YOLO",
+      "description": "Conducted 3D printing failure (spaghetti) detection using YOLO transfer learning for automated quality control.",
+      "image": "/images/projects/3D Printing Failure Detection with YOLO.png",
+      "technologies": ["YOLO", "Transfer Learning", "Computer Vision", "Python"],
+      "links": {
+        "github": "https://github.com/maido-39"
+      }
+    },
+    {
+      "id": 6,
+      "title": "VLA Model Deployment & Evaluation",
+      "description": "Deployment and evaluation of Vision-Language-Action models for autonomous robot systems. Research on proactive VLA for preemptive human assistance.",
+      "image": "/images/projects/vla-deployment.jpg",
+      "technologies": ["PyTorch", "ROS2", "VLA", "Python"],
+      "links": {
+        "github": "https://github.com/maido-39"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Sim2Real RL Policy for Quadruped Locomotion",
+      "description": "Deployed reinforcement learning policies trained in simulation to real-world quadruped robots, focusing on robust locomotion and adaptation.",
+      "image": "/images/projects/Sim2Real RL Policy for Quadruped Locomotion.png",
+      "technologies": ["Isaac Sim", "Isaac Lab", "RL", "ROS2"],
+      "links": {
+        "github": "https://github.com/maido-39",
+        "video": "https://www.youtube.com/watch?v=bMTD7MA6acg"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Ergonomic Split Keyboard",
+      "description": "Designed and built a custom split ergonomic keyboard to reduce arm muscle tension caused by traditional keyboards with left/right keys clustered together. Features columnar stagger layout and thumb cluster for improved ergonomics.",
+      "image": "/images/projects/Ergonomic split-keyboard.png",
+      "technologies": ["3D Printing", "Mechanical Design", "Raspberry Pi Pico", "PCB Design"],
+      "links": {}
+    }
+  ]
+}

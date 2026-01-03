@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "Hybrid cable tension-length compensation algorithm for dynamic performance improvement of mobile cable-driven parallel robot",
+    "authors": [
+      "Dong-Yeop Shin",
+      "B.G. Kim",
+      "J.H. Im",
+      "S.G. Hong",
+      "K.S. Park"
+    ],
+    "venue": "Microsystem Technologies",
+    "year": 2024,
+    "thumbnail": "/images/publications/pub1.jpg",
+    "links": {
+      "paper": "https://doi.org/10.1007/s00542-024-05673-4"
+    },
+    "description": "This paper presents a hybrid compensation algorithm that combines cable tension and length control to improve the dynamic performance of mobile cable-driven parallel robots (MCDPR)."
+  },
+  {
+    "id": 2,
+    "title": "Development of a smart automated sorting system based on optimal route design using genetic algorithm",
+    "authors": [
+      "D.W. Seo",
+      "G.W. Moon",
+      "Dong-Yeop Shin"
+    ],
+    "venue": "Korean Journal of Information Processing Society",
+    "year": 2022,
+    "thumbnail": "/images/projects/Smart Logistics Sorting System.png",
+    "links": {
+      "paper": "https://koreascience.kr/article/CFKO202233649437401.pub"
+    },
+    "description": "A smart automated sorting system that uses genetic algorithms to optimize routing for efficient logistics operations."
+  }
+]
