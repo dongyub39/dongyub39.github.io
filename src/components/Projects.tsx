@@ -18,7 +18,7 @@ interface Project {
 export default function Projects() {
   const { major, toy } = projectsData as { major: Project[]; toy: Project[] }
 
-  const ProjectCard = ({ project, isMajor = true }: { project: Project; isMajor?: boolean }) => (
+  const ProjectCard = ({ project }: { project: Project }) => (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -113,7 +113,7 @@ export default function Projects() {
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {major.map((project) => (
-              <ProjectCard key={project.id} project={project} isMajor={true} />
+              <ProjectCard key={project.id} project={project} />
             ))}
           </div>
         </motion.div>
@@ -133,7 +133,7 @@ export default function Projects() {
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {toy.map((project) => (
-              <ProjectCard key={project.id} project={project} isMajor={false} />
+              <ProjectCard key={project.id} project={project} />
             ))}
           </div>
         </motion.div>

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, Mail, Twitter, Youtube, GraduationCap } from 'lucide-react'
+import { Github, Mail, Youtube, GraduationCap } from 'lucide-react'
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com/maido-39', label: 'GitHub' },
