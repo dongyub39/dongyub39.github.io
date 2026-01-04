@@ -32,5 +32,23 @@
       "paper": "https://koreascience.kr/article/CFKO202233649437401.pub"
     },
     "description": "A smart automated sorting system that uses genetic algorithms to optimize routing for efficient logistics operations."
+  },
+  {
+    "id": 3,
+    "title": "Advanced control algorithm considering cable interference of mobile cable-driven parallel robots (MCDPRs)",
+    "authors": [
+      "B.G. Kim",
+      "Dong-Yeop Shin",
+      "J.H. Lim",
+      "S.K. Hong",
+      "K.S. Park"
+    ],
+    "venue": "Microsystem Technologies",
+    "year": 2025,
+    "thumbnail": "/images/publications/pub3.jpg",
+    "links": {
+      "paper": "https://link.springer.com/article/10.1007/s00542-024-05700-4"
+    },
+    "description": "This paper introduces control algorithms aimed at improving the stability of a mobile cable-driven parallel robot (MCDPRs), consisting of four mobile platforms and eight cables during motion. The algorithms include cable length control (CLC), tension distribution algorithm (TDA), path curvature-based localization (CBL), and adaptive velocity control (AVC)."
   }
 ]

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink, FileText } from 'lucide-react'
 import projectsData from '../data/projects.json'
+import ProjectModal from '../components/ProjectModal'
 
 interface Project {
   id: number
@@ -27,6 +28,7 @@ const getYouTubeVideoId = (url: string): string | null => {
 
 export default function ToyProjects() {
   const { major, toy } = projectsData as { major: Project[]; toy: Project[] }
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null)
 
   const ProjectCard = ({ project }: { project: Project }) => {
     const [isHovered, setIsHovered] = useState(false)
@@ -38,9 +40,10 @@ export default function ToyProjects() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="bg-white dark:bg-gray-900 rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden"
+        className="bg-white dark:bg-gray-900 rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        onClick={() => setSelectedProject(project)}
       >
         <div className="relative overflow-hidden bg-gray-200 dark:bg-gray-800 aspect-video group">
           {isHovered && videoId ? (
@@ -185,6 +188,13 @@ export default function ToyProjects() {
           </div>
         </div>
       </section>
+
+      {/* Project Modal */}
+      <ProjectModal
+        isOpen={!!selectedProject}
+        onClose={() => setSelectedProject(null)}
+        project={selectedProject}
+      />
     </div>
   )
 }

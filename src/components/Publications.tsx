@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ExternalLink, Github, Youtube, FileText } from 'lucide-react'
 import publicationsData from '../data/publications.json'
+import PublicationModal from './PublicationModal'
 
 interface Publication {
   id: number
@@ -21,7 +23,14 @@ interface Publication {
 const YOUR_NAME = 'Dong-Yeop Shin'
 
 export default function Publications() {
-  const publications = publicationsData as Publication[]
+  // Sort publications by year (descending), then by id (descending) for same year
+  const publications = (publicationsData as Publication[]).sort((a, b) => {
+    if (b.year !== a.year) {
+      return b.year - a.year // Newer year first
+    }
+    return b.id - a.id // Newer id first for same year
+  })
+  const [selectedPublication, setSelectedPublication] = useState<Publication | null>(null)
 
   const formatAuthors = (authors: string[]) => {
     // 이름 매칭을 더 유연하게 (대소문자 무시, 공백 정규화)
@@ -71,7 +80,8 @@ export default function Publications() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-white dark:bg-gray-900 rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden"
+              className="bg-white dark:bg-gray-900 rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden cursor-pointer"
+              onClick={() => setSelectedPublication(pub)}
             >
               <div className="grid md:grid-cols-[30%_70%] gap-0">
                 {/* Thumbnail */}
@@ -156,6 +166,14 @@ export default function Publications() {
           ))}
         </div>
       </div>
+
+      {/* Publication Modal */}
+      <PublicationModal
+        isOpen={!!selectedPublication}
+        onClose={() => setSelectedPublication(null)}
+        publication={selectedPublication}
+        yourName={YOUR_NAME}
+      />
     </section>
   )
 }
