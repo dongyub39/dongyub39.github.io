@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "add": "node scripts/add-content.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",

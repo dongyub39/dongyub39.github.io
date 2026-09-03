@@ -38,14 +38,30 @@ npm run preview
 
 ## 데이터 수정
 
-### 논문 추가/수정
-`src/data/publications.json` 파일을 편집하세요.
+### 대화형으로 빠르게 추가하기
 
-### 프로젝트 추가/수정
-`src/data/projects.json` 파일을 편집하세요.
+```bash
+npm run add
+```
 
-### 갤러리 사진 추가/수정
-`src/data/gallery.json` 파일을 편집하고, `public/images/gallery/` 폴더에 이미지를 추가하세요.
+논문 / 주요 프로젝트 / 토이 프로젝트 / 갤러리 중 무엇을 추가할지 고르면
+프롬프트를 따라 입력한 내용이 `src/data/*.json`에 자동으로 추가됩니다.
+([scripts/add-content.mjs](scripts/add-content.mjs))
+
+### 직접 JSON 편집하기
+
+- **논문**: `src/data/publications.json`
+- **프로젝트**: `src/data/projects.json` (`major` / `toy` 배열)
+- **갤러리**: `src/data/gallery.json` (이미지는 `public/images/gallery/`에 추가)
+
+### 반영하기
+
+```bash
+npm run dev            # 로컬에서 확인
+git add -A
+git commit -m "content: update"
+git push                # main에 push하면 GitHub Actions가 자동 배포
+```
 
 ## 이미지 준비
 
@@ -65,6 +81,15 @@ npm run preview
 **참고:** `vite.config.ts`의 `base` 경로를 확인하세요. 
 - 리포지토리 이름이 `dongyub39.github.io`인 경우: `base: '/'`
 - 다른 이름인 경우: `base: '/리포지토리-이름/'`
+
+## 방문자 IP/국가 로깅
+
+GitHub Pages는 정적 호스팅이라 자체 접속 로그가 없습니다. Cloudflare Worker + D1으로
+방문자의 IP/국가/도시/경로를 기록하고, 토큰으로 보호된 `/stats` 페이지에서 확인할 수
+있도록 구성했습니다. 설정 방법은 [worker/README.md](worker/README.md)를 참고하세요.
+
+설정 전까지는 `src/utils/visitLogger.ts`의 엔드포인트가 플레이스홀더라 아무 요청도
+보내지 않습니다.
 
 ## 커스터마이징
 

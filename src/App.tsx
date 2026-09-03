@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import VisitLogger from './components/VisitLogger'
 import Home from './pages/Home'
 import ToyProjects from './pages/ToyProjects'
 import Gallery from './pages/Gallery'
@@ -9,6 +10,7 @@ function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen">
+        <VisitLogger />
         <Header />
         <main>
           <Routes>

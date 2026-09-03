@@ -1,0 +1,8 @@
+name = "dongyub39-visit-logger"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dongyub39-visits"
+database_id = "REPLACE_WITH_DATABASE_ID"

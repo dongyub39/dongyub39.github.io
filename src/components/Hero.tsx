@@ -16,6 +16,9 @@ const researchInterests = [
   'Dynamic Perception',
   'Long-term Memory',
   'Persistent Understanding',
+  'Humanoid Robotics',
+  'Legged Locomotion',
+  'Information-Theoretic Control',
 ]
 
 export default function Hero() {

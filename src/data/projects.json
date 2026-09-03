@@ -2,12 +2,23 @@
   "major": [
     {
       "id": 3,
-      "title": "Language-Conditioned Multi-Robot Systems",
-      "description": "Research on multi-robot coordination systems that can understand and execute natural language instructions for collaborative tasks.",
-      "image": "/images/projects/multi-robot.jpg",
-      "technologies": ["ROS2", "NLP", "Multi-Agent Systems", "Python"],
+      "title": "Go2 Autonomous Navigation (SLAM + Nav2)",
+      "description": "Deployed autonomous navigation on a Unitree Go2 quadruped with a Jetson Orin and LiDAR, combining SLAM mapping with Nav2 path planning so the robot can localize itself and drive to a goal on its own.",
+      "image": "/images/projects/go2-nav2.png",
+      "technologies": ["ROS2", "Nav2", "SLAM", "Unitree Go2", "Jetson Orin"],
       "links": {
         "github": "https://github.com/maido-39"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Project HUPHY — Humanoid Robot from Scratch",
+      "description": "Leading a small student team to design and build a human-sized (~175cm) aluminum-frame humanoid robot from the ground up, serving as team lead for mechanical design, actuator selection, and project management. Picked and sized a motor for every joint based on how much torque it actually needs, and am now working through Sim2Real testing with 3D-printed test-fit parts while the real actuators are still on order — current goal is getting it to stand on its own, with walking as the next step.",
+      "image": "/images/projects/huphy.jpg",
+      "technologies": ["Humanoid Robotics", "Actuator Selection", "Fusion 360", "Isaac Lab", "Sim2Real"],
+      "links": {
+        "demo": "https://human-pygmalion.github.io/en/",
+        "github": "https://github.com/human-pygmalion"
       }
     },
     {
@@ -38,6 +49,14 @@
         "paper": "https://doi.org/10.1007/s00542-024-05673-4",
         "video": "https://www.youtube.com/watch?v=m4UILoInKxo"
       }
+    },
+    {
+      "id": 8,
+      "title": "Language as Control",
+      "description": "Researching how to precisely measure the minimum amount of information a language instruction needs to carry for a robot to act on it correctly, using tools from information theory (rate-distortion theory) instead of simply scaling up language models. Tested in simulated navigation environments (MiniGrid, Habitat-Sim). Currently under review.",
+      "image": "/images/projects/language-as-control.jpg",
+      "technologies": ["Information Theory", "Language-Conditioned Control", "Habitat-Sim", "MiniGrid"],
+      "links": {}
     }
   ],
   "toy": [
@@ -104,7 +123,7 @@
     {
       "id": 7,
       "title": "Sim2Real RL Policy for Quadruped Locomotion",
-      "description": "Deployed reinforcement learning policies trained in simulation to real-world quadruped robots, focusing on robust locomotion and adaptation.",
+      "description": "Deployed reinforcement learning policies trained in simulation to real-world quadruped robots, focusing on robust locomotion and adaptation — including porting 'extreme parkour' style policies (jumping onto and over obstacles) to Isaac Lab for testing on a Unitree Go1.",
       "image": "/images/projects/Sim2Real RL Policy for Quadruped Locomotion.png",
       "technologies": ["Isaac Sim", "Isaac Lab", "RL", "ROS2"],
       "links": {
@@ -118,6 +137,14 @@
       "description": "Designed and built a custom split ergonomic keyboard to reduce arm muscle tension caused by traditional keyboards with left/right keys clustered together. Features columnar stagger layout and thumb cluster for improved ergonomics.",
       "image": "/images/projects/Ergonomic split-keyboard.png",
       "technologies": ["3D Printing", "Mechanical Design", "Raspberry Pi Pico", "PCB Design"],
+      "links": {}
+    },
+    {
+      "id": 9,
+      "title": "Go2 Live Camera Streaming (WebRTC)",
+      "description": "Built a lightweight WebRTC server for watching the Go2's front camera live from any browser, with a small dashboard showing battery status — handy for monitoring the robot remotely without Unitree's official app.",
+      "image": "/images/projects/go2-stream.jpg",
+      "technologies": ["WebRTC", "Python", "aiortc", "Unitree Go2"],
       "links": {}
     }
   ]

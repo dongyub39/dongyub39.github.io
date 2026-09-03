@@ -40,6 +40,355 @@
     "description": "Jetson Nano development setup",
     "image": "/images/gallery/hardware1.jpg",
     "year": 2024
+  },
+  {
+    "id": 7,
+    "title": "RobStride Actuator Unboxing",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-003.jpg",
+    "year": 2026
+  },
+  {
+    "id": 8,
+    "title": "QDD Actuator Close-up",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-004.jpg",
+    "year": 2026
+  },
+  {
+    "id": 9,
+    "title": "Actuator Rotor Detail",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-008.jpg",
+    "year": 2026
+  },
+  {
+    "id": 10,
+    "title": "Actuator in Retail Packaging",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-009.jpg",
+    "year": 2026
+  },
+  {
+    "id": 11,
+    "title": "Actuator with Wiring Harness",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-011.jpg",
+    "year": 2026
+  },
+  {
+    "id": 12,
+    "title": "Actuator Driver Board",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-017.jpg",
+    "year": 2026
+  },
+  {
+    "id": 13,
+    "title": "Stator Winding Comparison",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-018.jpg",
+    "year": 2026
+  },
+  {
+    "id": 14,
+    "title": "Actuator Rotor Teardown",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-020.jpg",
+    "year": 2026
+  },
+  {
+    "id": 15,
+    "title": "Ankle Joint Parts Laid Out",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-070.jpg",
+    "year": 2026
+  },
+  {
+    "id": 16,
+    "title": "Labeled Leg Joint Assembly",
+    "description": "Hands-on with the RobStride actuators selected for Project HUPHY.",
+    "image": "/images/gallery/huphy-078.jpg",
+    "year": 2026
+  },
+  {
+    "id": 17,
+    "title": "Housing Stress Simulation (FEA)",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-012.jpg",
+    "year": 2026
+  },
+  {
+    "id": 18,
+    "title": "Actuator Housing FEA Analysis",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-013.jpg",
+    "year": 2026
+  },
+  {
+    "id": 19,
+    "title": "Joint Housing Stress Contours",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-014.jpg",
+    "year": 2026
+  },
+  {
+    "id": 20,
+    "title": "Ankle Bracket FEA Result",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-024.jpg",
+    "year": 2026
+  },
+  {
+    "id": 21,
+    "title": "Knee Joint Assembly CAD",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-027.jpg",
+    "year": 2026
+  },
+  {
+    "id": 22,
+    "title": "Leg Bracket Load Case Study",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-033.jpg",
+    "year": 2026
+  },
+  {
+    "id": 23,
+    "title": "Leg Mechanism Cross-Section",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-079.jpg",
+    "year": 2026
+  },
+  {
+    "id": 24,
+    "title": "Hip Joint Assembly (Fusion 360)",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-101.jpg",
+    "year": 2026
+  },
+  {
+    "id": 25,
+    "title": "Hip Joint Housing, Full Assembly",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-104.jpg",
+    "year": 2026
+  },
+  {
+    "id": 26,
+    "title": "Ankle 2-RSU Mechanism CAD",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-118.jpg",
+    "year": 2026
+  },
+  {
+    "id": 27,
+    "title": "Joint Bracket Design",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-140.jpg",
+    "year": 2026
+  },
+  {
+    "id": 28,
+    "title": "Full-Body Humanoid CAD Assembly",
+    "description": "CAD design and stress analysis work for Project HUPHY's joint mechanisms.",
+    "image": "/images/gallery/huphy-168.jpg",
+    "year": 2026
+  },
+  {
+    "id": 29,
+    "title": "Knee Joint Overlaid on Human Mesh",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-081.jpg",
+    "year": 2026
+  },
+  {
+    "id": 30,
+    "title": "Ankle Mechanism, Human-Scale Reference",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-083.jpg",
+    "year": 2026
+  },
+  {
+    "id": 31,
+    "title": "Actuator Layout on Human Silhouette",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-084.jpg",
+    "year": 2026
+  },
+  {
+    "id": 32,
+    "title": "Hip-Knee Assembly, Human Overlay",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-085.jpg",
+    "year": 2026
+  },
+  {
+    "id": 33,
+    "title": "Hip Joint Placement Study",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-088.jpg",
+    "year": 2026
+  },
+  {
+    "id": 34,
+    "title": "Full-Body CAD, Front View",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-151.jpg",
+    "year": 2026
+  },
+  {
+    "id": 35,
+    "title": "Full-Body CAD, Actuators Highlighted",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-153.jpg",
+    "year": 2026
+  },
+  {
+    "id": 36,
+    "title": "Leg Assembly, Human Silhouette Reference",
+    "description": "Sizing Project HUPHY's joints against a human-scale reference model.",
+    "image": "/images/gallery/huphy-156.jpg",
+    "year": 2026
+  },
+  {
+    "id": 37,
+    "title": "3D-Printed Leg, First Assembly",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-120.jpg",
+    "year": 2026
+  },
+  {
+    "id": 38,
+    "title": "Leg Frame on the 3D Printer Bed",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-123.jpg",
+    "year": 2026
+  },
+  {
+    "id": 39,
+    "title": "Printed Parts Laid Out for Assembly",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-125.jpg",
+    "year": 2026
+  },
+  {
+    "id": 40,
+    "title": "Leg Assembly In Progress",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-126.jpg",
+    "year": 2026
+  },
+  {
+    "id": 41,
+    "title": "Wired Leg Prototype",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-128.jpg",
+    "year": 2026
+  },
+  {
+    "id": 42,
+    "title": "Assembled Leg with Motors",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-129.jpg",
+    "year": 2026
+  },
+  {
+    "id": 43,
+    "title": "Actuator Boxes Ready for Build",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-131.jpg",
+    "year": 2026
+  },
+  {
+    "id": 44,
+    "title": "Leg Prototype, Desk Test",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-132.jpg",
+    "year": 2026
+  },
+  {
+    "id": 45,
+    "title": "Leg Prototype, Standing Test",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-134.jpg",
+    "year": 2026
+  },
+  {
+    "id": 46,
+    "title": "Fit-Testing the Leg Prototype",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-135.jpg",
+    "year": 2026
+  },
+  {
+    "id": 47,
+    "title": "Leg Prototype, Side View",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-136.jpg",
+    "year": 2026
+  },
+  {
+    "id": 48,
+    "title": "Assembled Leg Pair Standing",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-160.jpg",
+    "year": 2026
+  },
+  {
+    "id": 49,
+    "title": "Leg Pair, Lab Bench Test",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-161.jpg",
+    "year": 2026
+  },
+  {
+    "id": 50,
+    "title": "Leg Prototype on Test Bench",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-164.jpg",
+    "year": 2026
+  },
+  {
+    "id": 51,
+    "title": "Adjusting the Leg Prototype",
+    "description": "Building and test-fitting the first Project HUPHY leg prototype.",
+    "image": "/images/gallery/huphy-166.jpg",
+    "year": 2026
+  },
+  {
+    "id": 52,
+    "title": "Design Space Sweep (Ankle)",
+    "description": "Simulation and analysis behind Project HUPHY's leg design.",
+    "image": "/images/gallery/huphy-113.jpg",
+    "year": 2026
+  },
+  {
+    "id": 53,
+    "title": "Torque Envelope Analysis",
+    "description": "Simulation and analysis behind Project HUPHY's leg design.",
+    "image": "/images/gallery/huphy-116.jpg",
+    "year": 2026
+  },
+  {
+    "id": 54,
+    "title": "Ankle Reachable ROM Map",
+    "description": "Simulation and analysis behind Project HUPHY's leg design.",
+    "image": "/images/gallery/huphy-117.jpg",
+    "year": 2026
+  },
+  {
+    "id": 55,
+    "title": "Sim2Sim Walking Test, Joint Traces",
+    "description": "Simulation and analysis behind Project HUPHY's leg design.",
+    "image": "/images/gallery/huphy-157.jpg",
+    "year": 2026
+  },
+  {
+    "id": 56,
+    "title": "Simulated Walking, Joint Angle Plot",
+    "description": "Simulation and analysis behind Project HUPHY's leg design.",
+    "image": "/images/gallery/huphy-169.jpg",
+    "year": 2026
   }
 ]
-
